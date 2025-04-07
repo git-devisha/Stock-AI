@@ -1,8 +1,8 @@
 # Stock-AI
 
-# Monte Carlo Price Predictor
+
 ## Overview
-Monte Carlo Price Predictor is a Streamlit web application that simulates future price predictions using Monte Carlo methods. The app generates random price movements based on specified volatility parameters and predicts potential future values. This tool is helpful for understanding potential price movements and the effects of volatility on financial instruments.
+StockAI is a Streamlit web application that simulates future price predictions using Monte Carlo methods. The app generates random price movements based on specified volatility parameters and predicts potential future values. This tool is helpful for understanding potential price movements and the effects of volatility on financial instruments.
 
 ## Features
 - Simulate historical price data based on volatility parameters
