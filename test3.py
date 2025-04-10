@@ -13,19 +13,21 @@ st.write("Predict future prices using historical trends")
 
 # Sample data for Indian market (mock values as of March 2023)
 STOCK_DATA = {
-    "RELIANCE": {"current": 2350, "sector": "Oil & Gas", "volatility": 0.025},
-    "TCS": {"current": 3350, "sector": "IT", "volatility": 0.018},
+    "RELIANCE": {"current": 1169.50, "sector": "Oil & Gas", "volatility": 0.025},
+    "TCS": {"current": 3260.55, "sector": "IT", "volatility": 0.018},
     "HDFCBANK": {"current": 1650, "sector": "Banking", "volatility": 0.022},
     "INFY": {"current": 1450, "sector": "IT", "volatility": 0.02},
     "HINDUNILVR": {"current": 2560, "sector": "FMCG", "volatility": 0.015},
     "ICICIBANK": {"current": 920, "sector": "Banking", "volatility": 0.023},
+    "BANK-NIFTY": {"current": 50240.15, "sector": "Banking", "volatility": 0.02},
+    "NIFTY" :{"current": 22460.30, "sector": "Index", "volatility": 0.02}
 }
 
 COMMODITY_DATA = {
-    "GOLD": {"current": 58320, "unit": "per 10g", "volatility": 0.01},
-    "SILVER": {"current": 71200, "unit": "per kg", "volatility": 0.015},
-    "CRUDEOIL": {"current": 6320, "unit": "per barrel", "volatility": 0.03},
-    "NATURALGAS": {"current": 320, "unit": "per MMBtu", "volatility": 0.04},
+    "GOLD": {"current": 92020, "unit": "per 10g", "volatility": 0.01},
+    "SILVER": {"current": 91455, "unit": "per kg", "volatility": 0.015},
+    "CRUDEOIL": {"current": 5125, "unit": "per barrel", "volatility": 0.03},
+    "NATURALGAS": {"current": 301, "unit": "per MMBtu", "volatility": 0.04},
     "COPPER": {"current": 825, "unit": "per kg", "volatility": 0.025},
 }
 
